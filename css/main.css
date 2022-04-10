@@ -32,6 +32,7 @@ body {
   text-transform: uppercase;
   color: #EDEDED;
   position: relative;
+  text-decoration: none;
 }
 .header__logo a:before {
   content: url("../img/icons/logo.svg");
@@ -61,6 +62,7 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #EDEDED;
+  text-decoration: none;
 }
 .header__nav_active a {
   color: #C7AA8B;
