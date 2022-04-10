@@ -83,3 +83,69 @@ body {
 .header__sm div:first-child {
   border-left: 1px solid #4D4D4D;
 }
+
+/*COVER*/
+.cover {
+  height: 497px;
+  background: url("../img/cover1.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 69px;
+}
+h1 {
+  font-size: 78px;
+  line-height: 66px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+h1 span {
+  margin-top: 10px;
+  display: inline-block;
+}
+.line {
+  width: 60px;
+  height: 2px;
+  background: #FFFFFF;
+  margin: 0 auto;
+  margin-top: 36px;
+}
+p {
+  font-family: 'vollkornregular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.81);
+  margin-top: 18px;
+}
+.cover__button {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 20px;
+  width: 134px;
+  height: 40px;
+  padding-top: 7px;
+  background: rgba(77, 77, 77, 0.2);
+  border: 2px solid #FFFFFF;
+  margin: 0 auto;
+  margin-top: 49px;
+  display: block;
+}
+.cover__nav {
+  width: 39px;
+  height: 9px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 86px;
+}
+.cover__nav_item {
+  width: 9px;
+  height: 9px;
+  background: rgba(255, 255, 255, 0.4);
+}
+.cover__nav .active {
+  background: #FFFFFF;
+}
