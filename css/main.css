@@ -148,3 +148,58 @@ p {
 .cover__nav .active {
   background: #FFFFFF;
 }
+
+/*SERVICES*/
+.services {
+  height: 425px;
+  background: #C7AA8B;
+}
+.services .wrapper {
+  padding-top: 58px;
+}
+.services__flexcontainer {
+  width: 100%;
+  height: 287px;
+  display: flex;
+  justify-content: space-between;
+}
+.services__flexcontainer_item {
+  width: 300px;
+  height: 287px;
+}
+.services__number {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: rgba(50, 50, 50, 0.09);
+}
+.services__number-line {
+  width: 100%;
+  height: 1px;
+  background: rgba(50, 50, 50, 0.09);
+}
+.services__header {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #4D4D4D;
+  margin-top: 22px;
+}
+.services__icon {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 23px;
+}
+.services__description {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4D4D4D;
+  width: 287px;
+  padding-right: 40px;
+}
